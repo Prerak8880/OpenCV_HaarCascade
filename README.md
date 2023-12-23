@@ -15,8 +15,8 @@ The OpenCV library manages a repository containing all popular haar cascades tha
 * Spectacles
 * Licence Plate
 
-### We can load any haar-cascade XML file using cv2.CascadeClassifier function.
-### results It lists coordinates (x, y, w,h) of bounding boxes around the detected object.
+### We can load any haar-cascade XML file using "cv2.CascadeClassifier" function.
+### result: It lists "coordinates (x, y, w,h)" of bounding boxes around the detected object.
 
 ## Parameters in detectMultiScale
 
