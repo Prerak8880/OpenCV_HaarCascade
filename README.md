@@ -14,4 +14,14 @@ The OpenCV library manages a repository containing all popular haar cascades tha
 * Vehicle detection
 * Spectacles
 * Licence Plate
-* 
+
+### We can load any haar-cascade XML file using cv2.CascadeClassifier function.
+### results It lists coordinates (x, y, w,h) of bounding boxes around the detected object.
+
+## Parameters in detectMultiScale
+
+- scaleFactor – This tells how much the object’s size is reduced in each image.
+- minNeighbors – This parameter tells how many neighbours each rectangle candidate should consider.
+- minSize — This signifies the minimum possible size of an object to be detected. An object smaller than minSize would be ignored.
+    * **Note** : For detection, we must pass a gray_image , scaleFactor, and minNeighbors. Other parameters are optional.
+
